@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.074bc7ba.css",
-    "main.js": "/static/js/main.d461537e.js",
-    "index.html": "/index.html",
-    "main.074bc7ba.css.map": "/static/css/main.074bc7ba.css.map",
-    "main.d461537e.js.map": "/static/js/main.d461537e.js.map"
+    "main.css": "/ArtShop/static/css/main.074bc7ba.css",
+    "main.js": "/ArtShop/static/js/main.d461537e.js",
+    "index.html": "/ArtShop/index.html",
+    "main.074bc7ba.css.map": "/ArtShop/static/css/main.074bc7ba.css.map",
+    "main.d461537e.js.map": "/ArtShop/static/js/main.d461537e.js.map"
   },
   "entrypoints": [
     "static/css/main.074bc7ba.css",
