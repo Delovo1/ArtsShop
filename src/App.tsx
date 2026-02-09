@@ -7,7 +7,7 @@ import { artProducts } from './data/products';
 function App() {
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL || '/'}>
       <Nav />
       
       <Routes>
