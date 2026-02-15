@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/ArtShop/static/css/main.074bc7ba.css",
-    "main.js": "/ArtShop/static/js/main.4e355367.js",
+    "main.css": "/ArtShop/static/css/main.1aff13c2.css",
+    "main.js": "/ArtShop/static/js/main.c67ad92a.js",
     "index.html": "/ArtShop/index.html",
-    "main.074bc7ba.css.map": "/ArtShop/static/css/main.074bc7ba.css.map",
-    "main.4e355367.js.map": "/ArtShop/static/js/main.4e355367.js.map"
+    "main.1aff13c2.css.map": "/ArtShop/static/css/main.1aff13c2.css.map",
+    "main.c67ad92a.js.map": "/ArtShop/static/js/main.c67ad92a.js.map"
   },
   "entrypoints": [
-    "static/css/main.074bc7ba.css",
-    "static/js/main.4e355367.js"
+    "static/css/main.1aff13c2.css",
+    "static/js/main.c67ad92a.js"
   ]
 }
