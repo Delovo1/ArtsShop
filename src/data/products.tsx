@@ -5,7 +5,10 @@ export const artProducts = [
     artist: "Винсент Ван Гог",
     price: 18900,
     size: "73x92 см",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/800px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg"
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/800px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
+    inBasket: false,
+    quantity: 1,
+    entered: true,
   },
   {
     id: 2,
@@ -13,7 +16,10 @@ export const artProducts = [
     artist: "Эдвард Мунк",
     price: 15700,
     size: "91x73 см",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/The_Scream.jpg/800px-The_Scream.jpg"
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/The_Scream.jpg/800px-The_Scream.jpg",
+    inBasket: false,
+    quantity: 1,
+    entered: true,
   },
   {
     id: 3,
@@ -21,7 +27,10 @@ export const artProducts = [
     artist: "Ян Вермеер",
     price: 24500,
     size: "44x39 см",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/1665_Girl_with_a_Pearl_Earring.jpg/800px-1665_Girl_with_a_Pearl_Earring.jpg"
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/1665_Girl_with_a_Pearl_Earring.jpg/800px-1665_Girl_with_a_Pearl_Earring.jpg",
+    inBasket: false,
+    quantity: 1,
+    entered: true,
   },
   {
     id: 4,
@@ -29,15 +38,21 @@ export const artProducts = [
     artist: "Сандро Боттичелли",
     price: 32400,
     size: "172x278 см",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg/800px-Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg"
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg/800px-Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg",
+    inBasket: false,
+    quantity: 1,
+    entered: true,
   },
   {
     id: 5,
     title: "Мона Лиза",
     artist: "Леонардо да Винчи",
-    price: 999999,
+    price: 999900,
     size: "77x53 см",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/800px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg"
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/800px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg",
+    inBasket: false,
+    quantity: 1,
+    entered: true,
   },
   {
     id: 6,
@@ -45,7 +60,10 @@ export const artProducts = [
     artist: "Густав Климт",
     price: 28500,
     size: "180x180 см",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg/800px-The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg"
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg/800px-The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg",
+    inBasket: false,
+    quantity: 1,
+    entered: true,
   },
   {
     id: 7,
@@ -53,7 +71,10 @@ export const artProducts = [
     artist: "Грант Вуд",
     price: 9800,
     size: "78x65 см",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Grant_DeVolson_Wood_-_American_Gothic.jpg/1280px-Grant_DeVolson_Wood_-_American_Gothic.jpg"
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Grant_DeVolson_Wood_-_American_Gothic.jpg/1280px-Grant_DeVolson_Wood_-_American_Gothic.jpg",
+    inBasket: false,
+    quantity: 1,
+    entered: true,
   },
   {
     id: 8,
@@ -61,7 +82,10 @@ export const artProducts = [
     artist: "Винсент Ван Гог",
     price: 18700,
     size: "72x92 см",
-    image: "https://upload.wikimedia.org/wikipedia/commons/5/5e/Vincent_Willem_van_Gogh_076.jpg"
+    image: "https://upload.wikimedia.org/wikipedia/commons/5/5e/Vincent_Willem_van_Gogh_076.jpg",
+    inBasket: false,
+    quantity: 1,
+    entered: true,
   },
   {
     id: 9,
@@ -69,7 +93,10 @@ export const artProducts = [
     artist: "Винсент Ван Гог",
     price: 21500,
     size: "65x54 см",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project.jpg/800px-Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project.jpg"
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project.jpg/800px-Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project.jpg",
+    inBasket: false,
+    quantity: 1,
+    entered: true,
   },
   {
     id: 10,
@@ -77,7 +104,10 @@ export const artProducts = [
     artist: "Винсент Ван Гог",
     price: 16800,
     size: "71x93 см",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhh6UKpJoRrsv8DW-GoJikF9NTXBm-HROEzA&s"
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhh6UKpJoRrsv8DW-GoJikF9NTXBm-HROEzA&s",
+    inBasket: false,
+    quantity: 1,
+    entered: true,
   },
   {
     id: 11,
@@ -85,7 +115,10 @@ export const artProducts = [
     artist: "Иероним Босх",
     price: 45700,
     size: "220x389 см",
-    image: "https://upload.wikimedia.org/wikipedia/commons/a/ae/El_jard%C3%ADn_de_las_Delicias%2C_de_El_Bosco.jpg"
+    image: "https://upload.wikimedia.org/wikipedia/commons/a/ae/El_jard%C3%ADn_de_las_Delicias%2C_de_El_Bosco.jpg",
+    inBasket: false,
+    quantity: 1,
+    entered: true,
   },
   {
     id: 12,
@@ -93,7 +126,10 @@ export const artProducts = [
     artist: "Эжен Делакруа",
     price: 32800,
     size: "260x325 см",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/La_Libert%C3%A9_guidant_le_peuple_-_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_RF_129_-_apr%C3%A8s_restauration_2024.jpg/1280px-La_Libert%C3%A9_guidant_le_peuple_-_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_RF_129_-_apr%C3%A8s_restauration_2024.jpg"
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/La_Libert%C3%A9_guidant_le_peuple_-_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_RF_129_-_apr%C3%A8s_restauration_2024.jpg/1280px-La_Libert%C3%A9_guidant_le_peuple_-_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_RF_129_-_apr%C3%A8s_restauration_2024.jpg",
+    inBasket: false,
+    quantity: 1,
+    entered: true,
   },
   {
     id: 13,
@@ -101,7 +137,10 @@ export const artProducts = [
     artist: "Питер Брейгель Старший",
     price: 38900,
     size: "117x162 см",
-    image: "https://upload.wikimedia.org/wikipedia/commons/e/ed/Pieter_Bruegel_d._%C3%84._106b.jpg"
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Pieter_Bruegel_d._%C3%84._106b.jpg/500px-Pieter_Bruegel_d._%C3%84._106b.jpg",
+    inBasket: false,
+    quantity: 1,
+    entered: true,
   },
   {
     id: 14,
@@ -109,7 +148,10 @@ export const artProducts = [
     artist: "Леонардо да Винчи",
     price: 785000,
     size: "460x880 см",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/%C3%9Altima_Cena_-_Da_Vinci_5.jpg/800px-%C3%9Altima_Cena_-_Da_Vinci_5.jpg"
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/%C3%9Altima_Cena_-_Da_Vinci_5.jpg/800px-%C3%9Altima_Cena_-_Da_Vinci_5.jpg",
+    inBasket: false,
+    quantity: 1,
+    entered: true,
   },
   {
     id: 15,
@@ -117,7 +159,10 @@ export const artProducts = [
     artist: "Клод Моне",
     price: 42800,
     size: "200x426 см",
-    image: "https://muzei-mira.com/templates/museum/images/paint/vodianie-lilii-mone+.jpg"
+    image: "https://muzei-mira.com/templates/museum/images/paint/vodianie-lilii-mone+.jpg",
+    inBasket: false,
+    quantity: 1,
+    entered: true,
   },
   {
     id: 16,
@@ -125,7 +170,10 @@ export const artProducts = [
     artist: "Пьер Огюст Ренуар",
     price: 36700,
     size: "130x173 см",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Pierre-Auguste_Renoir_-_Luncheon_of_the_Boating_Party_-_Google_Art_Project.jpg/1280px-Pierre-Auguste_Renoir_-_Luncheon_of_the_Boating_Party_-_Google_Art_Project.jpg"
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Pierre-Auguste_Renoir_-_Luncheon_of_the_Boating_Party_-_Google_Art_Project.jpg/1280px-Pierre-Auguste_Renoir_-_Luncheon_of_the_Boating_Party_-_Google_Art_Project.jpg",
+    inBasket: false,
+    quantity: 1,
+    entered: true,
   },
   {
     id: 17,
@@ -133,7 +181,10 @@ export const artProducts = [
     artist: "Пьер Огюст Ренуар",
     price: 41900,
     size: "131x175 см",
-    image: "https://upload.wikimedia.org/wikipedia/commons/2/21/Pierre-Auguste_Renoir%2C_Le_Moulin_de_la_Galette.jpg"
+    image: "https://upload.wikimedia.org/wikipedia/commons/2/21/Pierre-Auguste_Renoir%2C_Le_Moulin_de_la_Galette.jpg",
+    inBasket: false,
+    quantity: 1,
+    entered: true,
   },
   {
     id: 18,
@@ -141,7 +192,10 @@ export const artProducts = [
     artist: "Кузьма Петров-Водкин",
     price: 29500,
     size: "160x186 см",
-    image: "https://upload.wikimedia.org/wikipedia/commons/a/af/Bathing_the_Red_Horse_P1060789.JPG"
+    image: "https://upload.wikimedia.org/wikipedia/commons/a/af/Bathing_the_Red_Horse_P1060789.JPG",
+    inBasket: false,
+    quantity: 1,
+    entered: true,
   },
   {
     id: 19,
@@ -149,7 +203,10 @@ export const artProducts = [
     artist: "Иван Айвазовский",
     price: 54800,
     size: "221x332 см",
-    image: "https://xn--90add8ag.xn--p1ai/wp-content/uploads/2024/09/GLAVNAYA-7.jpg"
+    image: "https://xn--90add8ag.xn--p1ai/wp-content/uploads/2024/09/GLAVNAYA-7.jpg",
+    inBasket: false,
+    quantity: 1,
+    entered: true,
   },
   {
     id: 20,
@@ -157,7 +214,10 @@ export const artProducts = [
     artist: "Иван Шишкин",
     price: 38700,
     size: "139x213 см",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA4FG8tG4G8wmk-PNW1UblsnOzzUMj9H8XYQ&s"
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA4FG8tG4G8wmk-PNW1UblsnOzzUMj9H8XYQ&s",
+    inBasket: false,
+    quantity: 1,
+    entered: true,
   },
   {
     id: 21,
@@ -165,7 +225,10 @@ export const artProducts = [
     artist: "Василий Суриков",
     price: 42900,
     size: "304x587 см",
-    image: "https://upload.wikimedia.org/wikipedia/commons/2/2b/Boyaryna_Morozova_by_V.Surikov_%281884-1887%2C_Tretyakov_gallery%29_detail_01.jpg"
+    image: "https://upload.wikimedia.org/wikipedia/commons/2/2b/Boyaryna_Morozova_by_V.Surikov_%281884-1887%2C_Tretyakov_gallery%29_detail_01.jpg",
+    inBasket: false,
+    quantity: 1,
+    entered: true,
   },
   {
     id: 22,
@@ -173,7 +236,10 @@ export const artProducts = [
     artist: "Илья Репин",
     price: 36500,
     size: "160.5x167.5 см",
-    image: "https://upload.wikimedia.org/wikipedia/commons/1/16/Ilya_Repin_Unexpected_visitors.jpg"
+    image: "https://upload.wikimedia.org/wikipedia/commons/1/16/Ilya_Repin_Unexpected_visitors.jpg",
+    inBasket: false,
+    quantity: 1,
+    entered: true,
   },
   {
     id: 23,
@@ -181,7 +247,10 @@ export const artProducts = [
     artist: "Алексей Саврасов",
     price: 29800,
     size: "62x48.5 см",
-    image: "https://upload.wikimedia.org/wikipedia/commons/1/12/RooksBackOfSavrasov.jpg"
+    image: "https://upload.wikimedia.org/wikipedia/commons/1/12/RooksBackOfSavrasov.jpg",
+    inBasket: false,
+    quantity: 1,
+    entered: true,
   },
   {
     id: 24,
@@ -189,7 +258,10 @@ export const artProducts = [
     artist: "Казимир Малевич",
     price: 12500,
     size: "79.5x79.5 см",
-    image: "https://upload.wikimedia.org/wikipedia/commons/d/d9/%D0%A7%D1%91%D1%80%D0%BD%D1%8B%D0%B9_%D1%81%D1%83%D0%BF%D1%80%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9_%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82._1915._%D0%93%D0%A2%D0%93.png"
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/%D0%A7%D1%91%D1%80%D0%BD%D1%8B%D0%B9_%D1%81%D1%83%D0%BF%D1%80%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9_%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82._1915._%D0%93%D0%A2%D0%93.png/500px-%D0%A7%D1%91%D1%80%D0%BD%D1%8B%D0%B9_%D1%81%D1%83%D0%BF%D1%80%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9_%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82._1915._%D0%93%D0%A2%D0%93.png",
+    inBasket: false,
+    quantity: 1,
+    entered: true,
   },
   {
     id: 25,
@@ -197,6 +269,9 @@ export const artProducts = [
     artist: "Василий Кандинский",
     price: 67800,
     size: "140x201 см",
-    image: "https://upload.wikimedia.org/wikipedia/commons/4/47/Vassily_Kandinsky%2C_1923_-_Composition_8%2C_huile_sur_toile%2C_140_cm_x_201_cm%2C_Mus%C3%A9e_Guggenheim%2C_New_York.jpg"
+    image: "https://upload.wikimedia.org/wikipedia/commons/4/47/Vassily_Kandinsky%2C_1923_-_Composition_8%2C_huile_sur_toile%2C_140_cm_x_201_cm%2C_Mus%C3%A9e_Guggenheim%2C_New_York.jpg",
+    inBasket: false,
+    quantity: 1,
+    entered: true,
   }
 ];
