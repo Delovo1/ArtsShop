@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 interface BasketItem {
   id: number;
   title: string;
@@ -5,6 +6,7 @@ interface BasketItem {
   price: number;
   size: string;
   image: string;
+  description: string;
   inBasket: boolean;
   quantity: number;
   entered: boolean
@@ -42,21 +44,23 @@ export default function Basket({ basketItems, onToggleBasket, addQuantity, remQu
                         const oldPrice = Math.round(art.price * 1.1);
                         return (
                             <div key={art.id} className="basket-item">
-                                <input 
-                                    type="checkbox" 
-                                    checked={art.entered} 
-                                    onChange={() => changeEntered(art.id)}
-                                />
-
-                                <img src={art.image} alt={art.title} />
-                                <div className="basket-item-info">
-                                    <div className="baskinfo">
-                                        <img 
+                                <img 
                                             className="trashbin" 
                                             src={`${process.env.PUBLIC_URL}/images/image.png`} 
                                             onClick={() => onToggleBasket(art.id)} 
                                             alt="Удалить"
                                         />
+                                <input 
+                                    type="checkbox" 
+                                    checked={art.entered} 
+                                    onChange={() => changeEntered(art.id)}
+                                />
+                            <Link className = "srcBascCard" to={`/products/${art.id}`} ></Link>
+
+                                <img src={art.image} alt={art.title} />
+                                <div className="basket-item-info">
+                                    <div className="baskinfo">
+                                        
                                         <h3>{art.title}</h3>
                                         <p className="artist">{art.artist}</p>
                                         <p>Размер: {art.size}</p>
@@ -85,13 +89,13 @@ export default function Basket({ basketItems, onToggleBasket, addQuantity, remQu
     <div className="mybasket">
         <h3>Ваша корзина</h3>
         <span>
-            {basketItems.filter(v => v.entered).reduce((acc, val) => acc + val.quantity, 0)} товаров • 1.97 кг
+            {basketItems.filter(v => v.entered).reduce((acc, val) => acc + val.quantity, 0)} {getProductNoun(basketItems.filter(v => v.entered).reduce((acc, val) => acc + val.quantity, 0))} 
         </span>
     </div>
     
     <div className="allprice">
         <p>Товары ({basketItems.filter(v => v.entered).reduce((acc, val) => acc + val.quantity, 0)})</p>
-        <span>{basketItems.filter(v => v.entered).reduce((acc, val) => acc + val.quantity * val.price * 1.1, 0)} ₽</span>
+        <span>{(basketItems.filter(v => v.entered).reduce((acc, val) => acc + val.quantity * val.price * 1.1, 0)).toFixed(0)} ₽</span>
     </div>
     
     <div className="discount">

@@ -4,6 +4,7 @@ import Main from './pages/Main';
 import Basket from './pages/Basket';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Products from './pages/Products';
+import ProductPage from './pages/ProductPage';
 import { artProducts as initialProducts } from './data/products';
 
 // Тип для одного товара
@@ -14,6 +15,7 @@ interface Product {
   price: number;
   size: string;
   image: string;
+  description: string;
   inBasket: boolean;
   quantity: number;
   entered: boolean;
@@ -33,7 +35,7 @@ function App() {
     setProducts(prev => 
       prev.map(item => 
         item.id === id 
-          ? { ...item, inBasket: !item.inBasket, entered: true, quantity : 1 } 
+          ? { ...item, inBasket: !item.inBasket, entered: true, quantity : !item.inBasket? 1: 0} 
           : item
       )
     );
@@ -63,8 +65,9 @@ return item
       <Nav />
       <Routes>
         <Route path="/" element={<Main />} />
-        <Route path="/products" element={<Products products={products} onToggleBasket={toggleBasket}/>}/>
+        <Route path="/products" element={<Products products={products} onToggleBasket={toggleBasket} remQuantity={remQuantity} addQuantity={addQuantity}/>}/>
         <Route path="/basket"  element={<Basket basketItems={basketItems} onToggleBasket={toggleBasket}addQuantity={addQuantity} remQuantity={remQuantity} changeEntered={changeEntered}/>}/>
+        <Route path="/products/:id" element={<ProductPage  products={products} onToggleBasket={toggleBasket}addQuantity={addQuantity} remQuantity={remQuantity}/>} />
       </Routes>
     </BrowserRouter>
   );
